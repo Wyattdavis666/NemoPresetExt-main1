@@ -22,28 +22,12 @@ import { NemoPresetManager, loadAndSetDividerRegex } from './features/prompts/pr
 // import { NemoPromptArchiveUI } from './features/prompts/prompt-archive-ui.js';
 import { initCategoryTray } from './features/prompts/category-tray.js';
 
-// Feature modules - Directives
-import { initDirectiveUI } from './features/directives/directive-ui.js';
-import { initPromptDirectiveHooks, initMessageTriggerHooks } from './features/directives/prompt-directive-hooks.js';
-import { initDirectiveAutocomplete } from './features/directives/directive-autocomplete-ui.js';
-import { initDirectiveFeatures } from './features/directives/directive-features.js';
-import { initDirectiveFeaturesFixes } from './features/directives/directive-features-fixes.js';
-
-// Feature modules - Backgrounds
-import { animatedBackgrounds } from './features/backgrounds/animated-backgrounds-module.js';
-import { backgroundUIEnhancements } from './features/backgrounds/background-ui-enhancements.js';
-import { backgroundOrganizer } from './features/backgrounds/background-organizer.js';
-
 // Feature modules - Reasoning
 import { applyNemoNetReasoning } from './reasoning/nemonet-reasoning-config.js';
 import { initializeHTMLTrimmer, setupAutoTrim } from './reasoning/html-trimmer.js';
 
 // Feature modules - Character Manager & World Info
 import { NemoCharacterManager } from './features/character-manager/character-manager.js';
-import { NemoWorldInfoUI } from './features/world-info/world-info-ui.js';
-import { NemoMarketplace } from './features/marketplace/marketplace.js';
-import { NemoPersonaUI } from './features/persona/persona-ui.js';
-import { initGuides } from './features/guides/index.js';
 import domCache from './features/character-manager/dom-cache.js';
 
 // Feature modules - Connection/Model Selector, API Router & Pipeline
